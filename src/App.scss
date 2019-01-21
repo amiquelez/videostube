@@ -1,0 +1,12 @@
+.App{
+  display: grid;
+  grid-template-rows: 56px auto;
+  grid-column-gap: 10px;
+  .Header{
+    background: red;
+  }
+  .Content{
+    display: grid;
+    grid-template-columns: 240px auto;
+  }
+}
